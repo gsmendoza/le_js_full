@@ -1,5 +1,5 @@
 function activateGallery() {
-  let thumbnails = document.querySelector("#gallery-thumbs").querySelectorAll("img");
+  let thumbnails = document.querySelectorAll("#gallery-thumbs > div > img");
 
   let mainImage = document.querySelector("#gallery-photo > img");
 
